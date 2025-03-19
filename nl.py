@@ -1,11 +1,8 @@
-def check_number_size(number):
-    if number < 100:
-        return "Small number"
-    else:
-        return "Large number"
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
 
-# Input from the user
-num = float(input("Enter a number: "))
+# Add two numbers
+sum = float(num1) + float(num2)
 
-# Output the result
-print(check_number_size(num))
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
